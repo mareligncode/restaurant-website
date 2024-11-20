@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<script>
+   var slider=document.getElementById('range');
+ var output=document.getElementById('rangeAv');
+ output.innerHTML=slider.value;
+
+ slider.oninput=function(){
+    output.innrHTML=this.value
+    document.write(this.value)
+    
+ }
+
+
+</script>
+
+    <style>
+        #cl{margin-left: 10px;
+            margin-right: 50%;
+            
+            background-color:white;
+        }
+        body{
+            background-color:rgb(100 100 100);
+            background-image: url('image/OIP.jfif');
+        }
+        a{
+            background-color:yellow;
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            padding: 12px 15px;
+            text-decoration: none;
+        }
+        a:hover{cursor: pointer;
+            background-color: chocolate;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><a href="index.html">webpage</a>
+    <a href="home.html">about</a>
+    <center><img src="image/me.jpg"   width="200" height="200"></center>
+   
+   <div id="cl">
+    <h1>name:marelign yimer</h1>
+    <h2>mob:251 989873564</h2>
+    <h3>telegram:@1921</h3>
+    <h4>tiktok:@maruman.com</h4>
+    <h5>email:yimermarelign@gmail.com</h5></div> 
+    <form>
+        <lable>comment</lable>
+        <textarea inputtype="text"  name="comment" rows="20" cols="100">write your comment here</textarea>
+    </form>
+    <input type="button" value="send">
+    <input type="button"  id="clcl">
+    <input type="range" id="range" max="100" min="10"  class="hhh" value="20">
+    <span  id="rangeAv"> </span>
+
+    
+
+</body>
+</html>
